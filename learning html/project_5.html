@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe - page</title>
+    <style>
+        /* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f5f0;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #c72c00;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffb347;
+    padding-bottom: 8px;
+}
+
+h2, h3 {
+    color: #e67e22;
+    margin: 20px 0 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* Ingredients Section */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+ul li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+ul li:before {
+    content: "•";
+    color: #e67e22;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Instructions Section */
+ol {
+    counter-reset: step-counter;
+    padding-left: 25px;
+    margin: 30px 0;
+}
+
+ol li {
+    counter-increment: step-counter;
+    list-style-type: none;
+    font-weight: bold;
+    color: #c72c00;
+    margin: 25px 0 10px;
+    font-size: 1.2rem;
+}
+
+ol li:before {
+    content: "Step " counter(step-counter) ":";
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+ol p {
+    font-weight: normal;
+    color: #333;
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: #fff9f2;
+    border-left: 3px solid #ffb347;
+    font-size: 1rem;
+}
+
+/* Author Section */
+div {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed #ccc;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    ol li {
+        font-size: 1.1rem;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <main>
+        <img src="chicken curry.jpg" alt="">
+        <h1>Chicken curry</h1>
+        <ul>
+            <h1>Ingredients list</h1>
+            <h2>Main ingridient</h2>
+            <li>Chicken – 1.5 lbs (700g), cut into pieces (bone-in for more flavor or boneless)</li>
+            <li>Onions – 2 medium, finely chopped</li>
+            <li>Tomatoes – 2 medium, chopped or puréed</li>
+            <li>Garlic – 4–5 cloves, minced</li>
+            <li>Ginger – 1-inch piece, grated or minced</li>
+            <li>Green Chilies – 1–2 (optional, adjust to taste)</li>
+
+            <h3>Spices & Seasonings:</h3>
+            <li>oil/Ghee – 3 tbsp (vegetable oil, coconut oil, or ghee)</li>
+            <li>Cumin Seeds – 1 tsp</li>
+            <li>Turmeric Powder – 1 tsp</li>
+            <li>Coriander Powder – 1 tbsp</li>
+            <li>Cumin Powder – 1 tsp</li>
+            <li>Red Chili Powder – 1 tsp (adjust to taste)</li>
+            <li>Garam Masala – 1 tsp</li>
+            <li>Salt – To taste</li>
+            <li>Black Pepper – ½ tsp (optional)</li>
+
+            <h3>Liquid & Herbs:</h3>
+            <li>Water or Chicken Stock – 1–2 cups (adjust for desired consistency)</li>
+            <li>Fresh Coriander (Cilantro) – ¼ cup, chopped (for garnish)</li>
+            <li>Curry Leaves – 5–6 (optional, for extra flavor)</li>
+
+            <h3>Optional Add-ins:</h3>
+            <li>Yogurt or Coconut Milk – ½ cup (for creaminess)</li>
+            <li>Lemon Juice – 1 tbsp (for tanginess)</li>
+            <li>Potatoes or Vegetables (if making a mixed curry)</li>
+        </ul>
+        <ol>
+            <h1>Step-by-step instructions</h1>
+            <li>Step 1:</li>
+            <p>Clean & pat dry 1.5 lbs (700g) chicken (bone-in for flavor or boneless for convenience).
+
+                Chop 2 onions, 2 tomatoes, 4–5 garlic cloves (minced), 1-inch ginger (grated), and 1–2 green chilies (if
+                using).
+
+                Measure out all spices for easy access.</p>
+
+            <li>Step 2:</li>
+            <p>Heat 3 tbsp oil/ghee in a deep pan over medium heat.
+
+                Add 1 tsp cumin seeds and let them sizzle for 10 seconds.
+
+                Add chopped onions and sauté until golden brown (~5–6 mins).
+
+                Add garlic, ginger, and green chilies. Sauté for 1–2 mins until fragrant.</p>
+
+            <li>Step 3:</li>
+            <p>Lower heat and add:
+
+                1 tsp turmeric
+
+                1 tbsp coriander powder
+
+                1 tsp cumin powder
+
+                1 tsp red chili powder
+
+                ½ tsp black pepper
+                Stir for 30 sec to toast spices (don’t let them burn).
+
+                Add chopped tomatoes and cook until soft and oil separates (~5–6 mins). Optional: Mash tomatoes for a
+                smoother gravy.</p>
+
+            <li>Step 4: </li>
+            <p>Add chicken pieces, 1 tsp salt, and mix well to coat with masala.
+
+                Cook on medium-high for 5 mins until chicken turns opaque (but not fully cooked).</p>
+
+            <li>step 5:</li>
+            <p>Pour 1–2 cups water/stock (adjust for desired thickness).
+
+                Optional: Add ½ cup yogurt or coconut milk for creaminess.
+
+                Cover and simmer on low heat for 20–25 mins (bone-in) or 15 mins (boneless), stirring occasionally.</p>
+
+            <li>step 6:</li>
+            <p>Sprinkle 1 tsp garam masala and curry leaves (if using).
+
+                Cook uncovered for 2–3 mins to thicken gravy.
+
+                Garnish with fresh cilantro and a squeeze of lemon juice (optional).</p>
+
+            <li>Serve Hot With:</li>
+            <p>Steamed rice, naan, roti, or bread.</p>
+        </ol>
+
+        <div>
+            Chicken Curry
+            <br>
+            Author: Munin
+            <br>
+            Published: [ May 18, 2025]
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - page</title>
+    <style>
+        /* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #3498db;
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #eee;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* FAQ List Styles */
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 15px 0 5px;
+}
+
+li::before {
+    content: "Q: ";
+    color: #3498db;
+}
+
+p::before {
+    content: "A: ";
+    color: #27ae60;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Hover effects for better interactivity */
+li:hover {
+    color: #3498db;
+    cursor: default;
+}
+
+section:hover h2 {
+    color: #2980b9;
+}
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Frequently Asked Questions</h1>
+        <p>Welcome to our FAQ section. Here you'll find answers to the most common questions about our products,
+            services, and policies. If you don't find what you're looking for, please don't hesitate to contact our
+            support team.</p>
+
+        <section>
+            <h2>General Questions</h2>
+            <ul>
+                <li>Q: What are your business hours?</li>
+                <p>A: We're open Monday through Friday, 9:00 AM to 5:00 PM EST.</p>
+
+                <li>Q: How can I contact customer support?</li>
+                <p>A: You can reach us by phone at (555) 123-4567, by email at support@company.com, or through our live
+                    chat during business hours.</p>
+            </ul>
+        </section>
+        <section>
+            <h2>Product Questions</h2>
+            <ul>
+                <li>Q: What is your return policy?</li>
+                <p>A: We accept returns within 30 days of purchase with a valid receipt. Items must be unused and in
+                    original packaging.</p>
+
+                <li>Q: Do you offer international shipping?</li>
+                <p>A: Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by destination.
+                </p>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Account & Technical Questions</h2>
+            <ul>
+                <li>Q: How do I reset my password?</li>
+                <p>A: Click "Forgot Password" on the login page and follow the instructions sent to your registered
+                    email address.</p>
+
+                <li>Q: Is my personal information secure?</li>
+                <p>A: Absolutely. We use industry-standard encryption and never share your data with third parties
+                    without consent.</p>
+            </ul>
+        </section>
+        <h2>Payment Questions</h2>
+        <ul>
+            <li>Q: What payment methods do you accept?</li>
+            <p>A: We accept all major credit cards, PayPal, and Apple Pay</p>
+
+            <li>Q: Can I get an invoice for my purchase?</li>
+            <p>A: Yes, invoices are automatically emailed after payment and can be accessed in your account dashboard.
+            </p>
+        </ul>
+        <section>
+            <h2>Special Requests.</h2>
+            <ul>
+                <li>Special Requests</li>
+                <p>A: Yes, we offer volume discounts for orders over 50 units. Contact our sales team for a custom
+                    quote.</p>
+
+                <li>Q: Can I customize products?</li>
+                <p>A: Some products are available for customization. Check product pages for options or contact us for
+                    special requests.</p>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
