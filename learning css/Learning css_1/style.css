@@ -1,0 +1,6 @@
+/* This is and external css and i have to link it using link tag under the html head tag  */
+h1{
+    font-size: bold;
+    text-align: center;
+}
+
