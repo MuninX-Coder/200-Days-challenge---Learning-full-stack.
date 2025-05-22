@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+}
+.first{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px 15px 20px 25px;
+    background-color: lightgray;
+
+}
+.second{
+      border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        background-color: lightgreen;
+}
+.third{
+      border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: lightcyan;
+}
+
+div{
+    border: 1px solid red;
+    width: 300px;
+    margin: 25px;
+    padding: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 300px; 
+    display: inline;
+}
+
+span{
+    border: 1px solid green;
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+    /* display: block; */
+    display: inline-block;
+}
