@@ -1,0 +1,30 @@
+img{
+    margin:10px;
+}
+div{
+    border: 1px solid black;
+    position: relative;
+    height: 800px;
+    background-color: lightgray;
+}
+.img_1{
+position: sticky;
+top: 100px;
+}
+
+.img_2{
+position: relative;
+top: 100px;
+
+}
+.img_3{
+position: absolute;
+top: 100px;
+}
+.img_4{
+position: fixed;
+}
+.box{
+    background-color: lightpink;
+    height: 500px;
+}
