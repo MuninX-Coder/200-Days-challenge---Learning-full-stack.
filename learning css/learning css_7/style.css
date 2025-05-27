@@ -1,0 +1,26 @@
+.container{
+    background-color: beige;
+    height: 650px;
+    border: 2px solid #000000;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: lightgray;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 2px 10px rgb(107, 98, 98);
+    box-shadow: 10px 11px 5px var(--primary_color);
+    box-shadow: 10px 15px 5px 3px pink;
+}
+:root{
+    --primary_color:red;
+}
+h2{
+    text-shadow: 2px 2px 5px rgb(33, 13, 13);
+}
