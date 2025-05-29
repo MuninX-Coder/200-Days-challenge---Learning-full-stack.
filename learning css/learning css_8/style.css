@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+  border: 3px solid black;
+}
+
+.box {
+  position: relative;
+  width: 350px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 100px;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  animation-name: Movement;
+
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+  animation-delay:0 ;
+  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+}
+@keyframes Movement {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 1250px;
+  }
+}
+
+.box1{
+     position: relative;
+  width: 350px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 100px;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+
+  animation-name: Movement1;
+
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+  animation-delay:0 ;
+  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  animation-direction:forawr;
+  animation-fill-mode: forwards
+}
+@keyframes Movement1 {
+  from {
+    top:500px;
+    left: 1250px;
+  }
+  to {
+    top: 500px;
+    left: 0px;
+  }
+}
+.circle{
+   position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 100px;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  top: 120px;
+
+  
+}
